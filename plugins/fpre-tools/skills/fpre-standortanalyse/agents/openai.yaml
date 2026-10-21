@@ -1,0 +1,20 @@
+interface:
+  display_name: FPRE Standortanalyse
+  short_description: Erstellt FPRE-Standortanalysen zu Makrolage und Mikrolage mit
+    den FPRE Tools makrat, maktext, mikrat und miktext. Diesen Skill immer verwenden,
+    wenn ein Nutzer eine Lagebeurteilung, Standortanalyse, Makrolage, Mikrolage, ein
+    Lagerating, einen Lagetext, eine Quartierbeurteilung oder eine Einschätzung zu
+    einem Ort oder einer Adresse wünscht, auch wenn er die Begriffe Makrolage oder
+    Mikrolage nicht ausdrücklich nennt und auch dann, wenn die Lageanalyse nur Teil
+    einer grösseren Frage zu einer Liegenschaft ist. Der Skill regelt Adressanforderungen,
+    Nutzungsgewichtung, Kennzeichnung von FPRE-Originaltexten und das Ausgabeformat
+    inklusive Mikrolage-Spider. Er deckt keine Wertermittlung ab.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

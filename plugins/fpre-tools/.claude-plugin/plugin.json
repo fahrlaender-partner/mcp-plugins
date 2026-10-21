@@ -1,0 +1,15 @@
+{
+  "name": "fpre-tools",
+  "displayName": "FPRE Tools",
+  "version": "1.0.0",
+  "description": "FPRE Immobilienbewertung: hedonische Marktwerte, DCF und Lageratings. Skills für geführte Bewertungen und Standortanalysen mit dem FPRE MCP-Server.",
+  "author": {
+    "name": "Fahrländer Partner AG",
+    "email": "support@fpre.ch",
+    "url": "https://www.fpre.ch"
+  },
+  "homepage": "https://www.fpre.ch",
+  "repository": "https://github.com/fahrlaender-partner/mcp-plugins",
+  "license": "LicenseRef-FPRE-Proprietary",
+  "keywords": ["immobilien", "bewertung", "standortanalyse", "hedonisch", "dcf", "schweiz", "fpre"]
+}
