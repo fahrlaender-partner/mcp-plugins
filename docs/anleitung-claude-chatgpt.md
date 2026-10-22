@@ -46,6 +46,15 @@ Der Skill `fpre-bewertung` sollte die Pflichtinputs erfragen und vor dem Bewertu
 
 Voraussetzung: Pro, Max, Team oder Enterprise. Im Free-Plan sind Directory-Plugins nicht verfügbar.
 
+### Schritt 0: Code-Ausführung aktivieren
+
+Claude liest Skills über die Code-Ausführung. Ist sie aus, kennt Claude nur den Skill-Namen und arbeitet nicht nach dem FPRE-Workflow.
+
+1. Einstellungen > Capabilities öffnen.
+2. "Code execution and file creation" einschalten. Derselbe Schalter erscheint als Banner unter Customize > Skills ("Turn on").
+
+Bei Team/Enterprise gibt der Owner die Funktion in den Organisationseinstellungen frei, bevor Mitglieder sie einschalten können.
+
 ### Schritt 1: FPRE MCP-Server als Connector verbinden
 
 1. In Claude unter Customize > Connectors "Custom Connector hinzufügen" wählen.
@@ -76,5 +85,6 @@ Gleiche Beispielanfrage wie bei ChatGPT.
 | Skill meldet, der FPRE-Server sei nicht verbunden | Schritt 1 nicht abgeschlossen. |
 | invalid_redirect_uri | Der Host des KI-Clients ist bei FPRE nicht freigegeben. An support@fpre.ch wenden. |
 | Plugin nicht im Claude-Directory sichtbar | Free-Plan, oder der Owner hat das Directory für die Organisation ausgeblendet. |
+| Claude (Chat) fragt nach der Nutzung, ruft andere Tools auf oder liefert keinen Spider | Code-Ausführung ist aus, siehe Claude Schritt 0. |
 
 Support: support@fpre.ch

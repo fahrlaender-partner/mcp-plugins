@@ -8,6 +8,8 @@ Die Skills arbeiten ausschliesslich mit den Tools des FPRE MCP-Servers `https://
 
 Ohne verbundenen Server erzeugen die Skills keine Ersatzwerte, sondern verweisen auf die Anleitung.
 
+In Claude muss "Code execution and file creation" aktiviert sein (Einstellungen > Capabilities), sonst werden die Skill-Inhalte nicht geladen und der Mikrolage-Spider kann nicht erzeugt werden.
+
 ## Skills
 
 - **fpre-bewertung**: wählt das passende Bewertungsmodul, erhebt fehlende Inputs ohne zu raten, nutzt FPRE-Modellvorschläge für Mikrolage, Ausbaustandard und Zustand, verlangt vor jedem kontingentwirksamen Bewertungsaufruf eine explizite Freigabe und gibt Ergebnisse faktenorientiert aus.
