@@ -23,6 +23,8 @@ Beispiel: "Bewerte ein Einfamilienhaus an der Bahnhofstrasse 1, 8001 Zürich. Wo
 
 Die Skills senden Adressen und Objektangaben, die der Nutzer eingibt, über den verbundenen Connector an `mcp.fpre.ch`. Das Plugin selbst speichert nichts und kontaktiert keine anderen Dienste. Das Script `scripts/mikrolage_spider.py` läuft lokal und zeichnet nur die übergebenen Ratings.
 
+FPRE speichert pro Aufruf Postleitzahl, Ort, Modell-Inputs und -Resultate für Kontingentabrechnung und Statistik. Strasse und Hausnummer werden nicht gespeichert. Details: https://fpre.ch/datenschutzerklaerung/
+
 ## Support
 
 support@fpre.ch, https://www.fpre.ch
