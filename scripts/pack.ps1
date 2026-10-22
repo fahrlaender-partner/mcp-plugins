@@ -21,7 +21,8 @@ Remove-Item -Force $zipPath -ErrorAction SilentlyContinue
 
 $zip = [IO.Compression.ZipFile]::Open($zipPath, [IO.Compression.ZipArchiveMode]::Create)
 try {
-    Get-ChildItem -Recurse -File $pluginDir | ForEach-Object {
+    # .claude-plugin gehört nur ins Claude Directory (liest das Repo); im ChatGPT-ZIP wäre es ein zweites Manifest.
+    Get-ChildItem -Recurse -File $pluginDir | Where-Object { $_.FullName -notlike "$pluginDir\.claude-plugin\*" } | ForEach-Object {
         $entryName = $_.FullName.Substring($pluginDir.Length + 1).Replace('\', '/')
         [IO.Compression.ZipFileExtensions]::CreateEntryFromFile($zip, $_.FullName, $entryName, [IO.Compression.CompressionLevel]::Optimal) | Out-Null
     }

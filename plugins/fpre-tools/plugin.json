@@ -16,15 +16,15 @@
     "com.openai": {
       "interface": {
         "displayName": "FPRE Tools",
-        "shortDescription": "FPRE Immobilienbewertung: hedonische Marktwerte, DCF und Lageratings.",
+        "shortDescription": "Bewertung und Lagerating",
         "longDescription": "Die FPRE Tools bringen die Immobilienbewertungs-Methodik von Fahrländer Partner Raumentwicklung direkt in Ihren Arbeitsablauf. Ermitteln Sie hedonische Marktwerte für Einfamilienhäuser, Eigentums- und Mietwohnungen sowie Büro- und Verkaufsflächen, erstellen Sie DCF-Bewertungen und rufen Sie fundierte Makro- und Mikrolage-Ratings für jeden Standort in der Schweiz ab. Weitere Funktionen umfassen Landwerte-Bandbreiten, marktbasierte Baukosten nach BKP und eBKP-H, Preisspektren für Miete und Kauf sowie Objekt- und Zustandsbewertungen. Alle Ergebnisse basieren auf den etablierten Modellen und aktuellen Marktdaten von FPRE. Voraussetzung ist eine Verbindung zum FPRE MCP-Server mit den von FPRE zugestellten Zugangsdaten.",
         "developerName": "Fahrländer Partner AG",
-        "category": "Real Estate",
+        "category": "Data & Analytics",
         "websiteURL": "https://www.fpre.ch",
         "privacyPolicyURL": "https://fpre.ch/datenschutzerklaerung/",
         "brandColor": "#FFA43D",
-        "composerIcon": "assets/icon.png",
-        "logo": "assets/icon.png"
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
       }
     }
   }
