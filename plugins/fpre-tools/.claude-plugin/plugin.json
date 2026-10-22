@@ -11,5 +11,9 @@
   "homepage": "https://www.fpre.ch",
   "repository": "https://github.com/fahrlaender-partner/mcp-plugins",
   "license": "LicenseRef-FPRE-Proprietary",
+  "icon": "./assets/icon.png",
+  "privacyPolicyUrl": "https://fpre.ch/datenschutzerklaerung/",
+  "supportUrl": "https://www.fpre.ch",
+  "documentationUrl": "https://imbas.fpre.ch/public/imbas/mcp/manuals/Anleitung%20Claude%20und%20ChatGPT.pdf",
   "keywords": ["immobilien", "bewertung", "standortanalyse", "hedonisch", "dcf", "schweiz", "fpre"]
 }

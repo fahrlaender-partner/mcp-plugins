@@ -14,11 +14,13 @@ plugins/fpre-tools/                   Das Plugin, Ordner wird bei Anthropic eing
   .claude-plugin/plugin.json          Claude-Manifest
   README.md                           Listing-Beschreibung im Claude Directory
   LICENSE                             Proprietäre Lizenz
-  assets/icon.svg
+  assets/icon.svg                     Quelle des Icons
+  assets/icon.png                     512x512, gerendert mit scripts/make-icon.ps1 (Directory verlangt PNG)
   skills/fpre-bewertung/              Geführte Immobilienbewertung
   skills/fpre-standortanalyse/        Makro- und Mikrolage
 docs/anleitung-claude-chatgpt.md      Kundenanleitung
 scripts/pack.ps1                      Baut das Submission-ZIP für ChatGPT nach dist/
+scripts/make-icon.ps1                 Rendert assets/icon.png aus den SVG-Formen
 ```
 
 Jeder Skill ist in sich geschlossen. `scripts/mikrolage_spider.py` liegt deshalb bewusst in beiden Skills.

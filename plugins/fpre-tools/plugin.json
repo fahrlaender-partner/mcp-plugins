@@ -21,9 +21,10 @@
         "developerName": "Fahrländer Partner AG",
         "category": "Real Estate",
         "websiteURL": "https://www.fpre.ch",
+        "privacyPolicyURL": "https://fpre.ch/datenschutzerklaerung/",
         "brandColor": "#FFA43D",
-        "composerIcon": "assets/icon.svg",
-        "logo": "assets/icon.svg"
+        "composerIcon": "assets/icon.png",
+        "logo": "assets/icon.png"
       }
     }
   }
